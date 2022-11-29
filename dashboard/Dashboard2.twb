@@ -805,8 +805,8 @@
           </layout-options>
           <size maxheight='1600' minheight='1600' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='38' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='37' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='40' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='39' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone h='9750' id='33' type-v2='title' w='69500' x='25400' y='1125'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -887,7 +887,7 @@
       <simple-id uuid='{A216DAB7-5738-47C0-929A-3C85540013E0}' />
     </dashboard>
   </dashboards>
-  <windows source-height='30'>
+  <windows show-side-pane='false' source-height='30'>
     <window class='worksheet' name='Sheet 2'>
       <cards>
         <edge name='left'>

@@ -8,7 +8,9 @@ Exploratory Data Analysis: A summary of the highlights of your EDA, where you ca
 Clearly state your research question, and include 2-3 visualizations that helped you answer your research question. You can create multi-panel figures, but each of your visualizations must speak directly to your research question, and any insights you were able to get from it should be clearly articulated in the figure caption/description.
 
 ## Joss' first research questions included analyzing ideal time frame between project launch and deadline, as well as the most succesful month. 
-For my first questions of interest, I have 2 main categories when exploring this topic, the first exploring the importance of the month the project was released in. ![LaunchMonthPlot](images/LaunchMonth.png) 
+For my first questions of interest, I have 2 main categories when exploring this topic, the first exploring the importance of the month the project was released in. 
+
+![LaunchMonthPlot](images/LaunchMonth.png) 
 
 I started with a bar plot showcasing the succesful vs failed projects for each month.
 Based on my findings, it seems as though July is the most popular month to launch a project, however it is not the most succesful and has the most fails out of any month. I suspect July is the most popular as it is the summer, meaning that people usually have more time to try something such as a startup project and they will be less likely to be limited by weather. There is a much lower project count in December, and generally most are unsuccseful. I suspect that the lower project count in December comes from the fact that the weather is generally colder, and it is an expensive time for a lot of people considering it is holiday season. The most succesful month is March, I cannot see a logical reason why however it is an interesting finding nonetheless. 

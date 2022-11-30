@@ -1,4 +1,4 @@
-# Notebooks Folder
+# Aryan's Analysis 3 notebook folder/See analysis 3
 
 - `analysis1.ipynb` : Teammate 1 should have Jupyter Notebook work stored here. Remember to change the header in this file to your names or an alias. Don't change the name of this file.
 - `analysis2.ipynb` : Teammate 2 should have Jupyter Notebook work stored here. Remember to change the header in this file to your names or an alias. Don't change the name of this file.

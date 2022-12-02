@@ -75,6 +75,32 @@ This makes sense as project design is essential in contributing to the success o
 
 Similarly, this table  presented the sum of the total amount of pledge made to the categories. This answers the research question in the sense that now we finally know how much is truly being contributed to these categories for the projects to succeed (that is what everyone wants), but not always. The amounts are insane as seen in the visual. It is showing the pledged amounts(not in order) and that 3D printing had an immense amount of pledges with a whopping 48 million dollars. This correlates with the product design category type being number 1 in the pie chart visual as prototypes or products would be made from 3D printing.
 
+## Question 6 + Connor's Results: Which Countries are the most popular?
+
+With Kickstarter allowing people from almost any country to start or fund campaigns, which country is the most popular? We can look at this in multiple ways, such as the amount pledged or the amount of campaigns from each country. I decided to look at both of these options to see if there is any differences between each factor.
+
+![Amount of Campaigns from each Country](images/PopularCountry.png)
+
+Starting off with the amount of campaigns from each country we can see that the US is by far the most popular with almost 300000 campaigns. Canada and Mexico also make an apperance in the top countries. From this we can see that Kickstarter is most popular in North America. This is backed up by the fact that Kickstarter is based in New York. An unfortunate side effect of the US being so popular is that it skews our graph. Removing it from the graph can let us get some more insight on the smaller countries.
+
+![Amount of Campaigns from each Country (No US)](images/PopularCountryNoUS.png)
+
+Now we can see that European countries such as: Great Britain, Germany, and France have a relitivly large amount of campaigns. Great Britain has quite the lead over the other countries with the next biggest country, Canada, only having half the amount of campaigns. Asia/Oceanic countries share an even smaller amount of campaigns with the exeption of Australia, which has the 4th highest amount at ~16000. I believe that this is because Australia is a mostly white, english speaking country. This trend of english speakng countries being the most popular makes sense because Kickstarter is a mostly american website, so people who speak the same language that is most popular on Kickstarter are more likely to have heard of it and use it.
+
+Now lets see which countries donated the most.
+
+![Median Amount Pledged per Country](images/PlegedPerCountry.png)
+
+Despite the US having the largest amount of campaigns it only has an average median amount pledged. The country that takes the number 1 spot is Hong Kong. With Hong Kong being a major financial center, it makes sense for it to have a large median amount pledged. However, it does have more of a lead than I would expect. This also applies to Singapore and Japan, which are second and third for the largest median amount pledged. This is interesting as it contradicts the previous observation of english speaking countries seeming to be the most popular. An explanation, as previously stated, is that "rich" countries have more to donate per person.
+
+## Question 7 + Connor's Results: Which Categories are the most popular?
+
+The Kickstarter data set we chose has two different columns for categories, Main Category and Category. I chose to use main category as it allows the data to be broken down in an more understandable way. There is 159 categories which would add too many points to the graphs.
+
+Starting off with the median amount pledged per category.
+
+![Median Amount Pledged per Category](images/PlegedPerCatergory.png)
+
 ## Summary/Conclusion: A brief paragraph that highlights your key results and what you learned from doing this project.
 
 In conclusion, the most popular length of a project is roughly 30 days, however most success can be found at 22 days. For launched projects, March has highest success rate. For projects launched in December, they face the least competition however they are generally unsuccesful. In terms of naming projects, anything below 25 characters is generally unsuccesful as it is likely not descriptive enough. The most succesful name lengths, being the ones with the best success/fail ratio are between 40-55 characters.

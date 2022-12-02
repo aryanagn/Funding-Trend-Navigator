@@ -81,28 +81,44 @@ With Kickstarter allowing people from almost any country to start or fund campai
 
 ![Amount of Campaigns from each Country](images/PopularCountry.png)
 
-Starting off with the amount of campaigns from each country we can see that the US is by far the most popular with almost 300000 campaigns. Canada and Mexico also make an apperance in the top countries. From this we can see that Kickstarter is most popular in North America. This is backed up by the fact that Kickstarter is based in New York. An unfortunate side effect of the US being so popular is that it skews our graph. Removing it from the graph can let us get some more insight on the smaller countries.
+Starting off with the amount of campaigns from each country we can see that the US is by far the most popular with almost 300000 campaigns. Canada and Mexico also make an appearance in the top countries. From this we can see that Kickstarter is most popular in North America. This is backed up by the fact that Kickstarter is based in New York. An unfortunate side effect of the US being so popular is that it skews our graph. Removing it from the graph can let us get some more insight on the smaller countries.
 
 ![Amount of Campaigns from each Country (No US)](images/PopularCountryNoUS.png)
 
-Now we can see that European countries such as: Great Britain, Germany, and France have a relitivly large amount of campaigns. Great Britain has quite the lead over the other countries with the next biggest country, Canada, only having half the amount of campaigns. Asia/Oceanic countries share an even smaller amount of campaigns with the exeption of Australia, which has the 4th highest amount at ~16000. I believe that this is because Australia is a mostly white, english speaking country. This trend of english speakng countries being the most popular makes sense because Kickstarter is a mostly american website, so people who speak the same language that is most popular on Kickstarter are more likely to have heard of it and use it.
+Now we can see that European countries such as: Great Britain, Germany, and France have a relatively large amount of campaigns. Great Britain has quite the lead over the other countries with the next biggest country, Canada, only having half the amount of campaigns. Asia/Oceania countries share an even smaller amount of campaigns with the exception of Australia, which has the 4th highest amount at ~16000. I believe that this is because Australia is a mostly white, English speaking country. This trend of English speaking countries being the most popular makes sense because Kickstarter is a mostly american website, so people who speak the same language that is most popular on Kickstarter are more likely to have heard of it and use it.
 
-Now lets see which countries donated the most.
+Now let's see which countries donated the most.
 
 ![Median Amount Pledged per Country](images/PlegedPerCountry.png)
 
-Despite the US having the largest amount of campaigns it only has an average median amount pledged. The country that takes the number 1 spot is Hong Kong. With Hong Kong being a major financial center, it makes sense for it to have a large median amount pledged. However, it does have more of a lead than I would expect. This also applies to Singapore and Japan, which are second and third for the largest median amount pledged. This is interesting as it contradicts the previous observation of english speaking countries seeming to be the most popular. An explanation, as previously stated, is that "rich" countries have more to donate per person.
+Despite the US having the largest amount of campaigns it only has an average median amount pledged. The country that takes the number 1 spot is Hong Kong. With Hong Kong being a major financial center, it makes sense for it to have a large median amount pledged. However, it does have more of a lead than I would expect. This also applies to Singapore and Japan, which are second and third for the largest median amount pledged. This is interesting as it contradicts the previous observation of English speaking countries seeming to be the most popular. An explanation, as previously stated, is that "rich" countries have more to donate per person.
 
 ## Question 7 + Connor's Results: Which Categories are the most popular?
 
-The Kickstarter data set we chose has two different columns for categories, Main Category and Category. I chose to use main category as it allows the data to be broken down in an more understandable way. There is 159 categories which would add too many points to the graphs.
+The Kickstarter data set we chose has two different columns for categories, Main Category and Category. I chose to use the main category column as it allows the data to be broken down in a more understandable way. There are 159 categories which would add too many points to the graphs.
 
 Starting off with the median amount pledged per category.
 
 ![Median Amount Pledged per Category](images/PlegedPerCatergory.png)
+
+Here we see that there is some categories that stand out as having quite a small amount pledged. Journalism being the smallest with only $51. Perhaps this is because journalism isn't something that is easily crowdfunded as there ism't a product to sell to a customer, as well as journalism/news usually not being publicy funded to avoid bias. Crafts is also down at the bottom which could be because non technology related products have less prevalence in our increasingly online world.
+
+As for the top categories, we have dance and design. With design being a broad category that could contain multiple types of campaigns it is understandable for it to have a large amount pledged. Dance being a popular category is a unexpected. Dance isn't that popular of a product and it usually isn't a personal product (soemthing that could be shipped to or used by a customer) so it having the second highest median amount pledged is a mystery. Other categories that would normally be thought of as more popular, like technology, are much lower then expected.
+
+Here is the amount of campaigns per category as well as the state of those campaigns.
+
+![Amount of Entries (and State) Per Main Category](images/EntriesStatePerCategory.png)
+
+This graph contrasts with the findings of the previous graph. The most popular categories have a small amount of campaigns well the rest all have a fairly average number of campaigns. This could be because less popular categories produce higher quality campaigns. We also now see that categories that are thought of as more popular do show up with a large number of entries.
+
+Another aspect of this graph to look at is the state of each campaign. The state of a campaign describes if it met its funding goal or it did not meet it's goal and was canceled for some reason. From the graph it looks like a success rate of around 50% was common with Music even having more successful then failed. With anyone being able to upload a campaign, not every campaign being good enough to gather it's goal is expected. Technology has quite a high failure rate compared to other catergories.
+
+If you would like to take a look at my analysis which contains all the code required to make these graphs, you can find it [here](notebooks/analysis1.ipynb)
 
 ## Summary/Conclusion: A brief paragraph that highlights your key results and what you learned from doing this project.
 
 In conclusion, the most popular length of a project is roughly 30 days, however most success can be found at 22 days. For launched projects, March has highest success rate. For projects launched in December, they face the least competition however they are generally unsuccesful. In terms of naming projects, anything below 25 characters is generally unsuccesful as it is likely not descriptive enough. The most succesful name lengths, being the ones with the best success/fail ratio are between 40-55 characters.
 
 In conclusions, the main category with the most pledged amount was 3D printing with a value of 48 million dollars and the least was Taxidermy with only 30 thousand dollars. We also saw that more categories failed than succeeded even if the amount pledged was abundant. The result in the analysis (see EDA) was 52% failure rate and a 35% success rate for the project categories. For example, if the category/subcategory was failing, the deadline pledge was significantly lower than the initial pledge for funding the project. The most popular category was product design (3D printing). Not only that, table top games and documentary subcategories were more popular than the others according to the statistical analysis. I learned a significant amount of information regarding data analysis through doing this project. Going from knowing nothing about pandas and data wrangling/functioning, I managed to create an efficient data analysis on a data set with over 300,000 projects. I did not expect to come this far, but I managed to efficiently use my resources such as my class lectures, labs, the internet as a starting point and built on from there. I know it may not be perfect, but I have a pretty good idea of how to perform data analysis. 
+
+The conclusion for Connor's research questions. Lots of insight can be gathered from simple graphs. Countries and Categories that would not be thought of as popular have lots money going to/coming from them. Reasons for these results can come be surprisingly complex and I cannot even provide a correct explanation for them. Overall we see that most countries and categories fall into an average with some some outliers, which is expected. The interesting part is the margins that the outliers have over the average and which country or category that these outliers come from. My data analysis is simple but leads to farther questions that could be answered with more research.

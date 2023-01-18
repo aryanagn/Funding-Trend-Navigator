@@ -1,20 +1,7 @@
-# Group 26 - {Kickstarter Fundraisers}
+# Kickstarter Fundraisers Data Analysis
 
-**Please remember to update this section**
 
-- Your title can change over time.
-
-## Milestones
-
-Details for Milestone are available on Canvas (left sidebar, Course Project).
-
-## Describe your topic/interest in about 150-200 words
-
-**Please remember to update this section**
-Section is finished but feel free to add/remove anything if you feel it adds to the project
-- Connor
-
-Our group chose a dataset that contains information about ~300,000 Kickstarter projects. 
+## Our group chose a dataset that contains information about ~300,000 Kickstarter projects. 
 With Kickstarter being such a popular crowd-funding website, it is interesting to see what 
 makes a certain project stand out and be successful. The dataset we chose has many variables 
 that we can analyse in order for us to get an insight into this question. Factors such as if 
@@ -25,12 +12,10 @@ contribute more because they saw more personal value in the project? There are m
 questions that can be asked from such a comprehensive dataset. We hope to answer any questions 
 or insights we may have by analysing this dataset.
 
-## Describe your dataset in about 150-200 words
-
-**Please remember to update this section**
+## Description
 
 
-{Our dataset is based on the kickstarter fundraisers which have over 300,000 kickstarter 
+## Our dataset is based on the kickstarter fundraisers which have over 300,000 kickstarter 
 projects. Kickstarter is an independent company that provides support to the world of
 creative projects initiated by the public community. The overall 300,000 kickstarter data
 was provided/combined by MICKAËL MOUILLÉ initially collected from kickstarter projects.
@@ -43,22 +28,18 @@ projects and which idea or project is the most common within the dataset, and if
 its milestone. The dataset was initially created as a standpoint for a twitter bot to tweet
 everytime a project had reached its desired milestone and for public interest to expand upon
 The data was collected by a human who is a kickstarter crowdfunding enthusiast developing ideas
-for these projects for the future such as apps, websites, etc.}
+for these projects for the future such as apps, websites, etc.
 
 ## Team Members
 
-**Please remember to update this section**
-
 - Connor Hamilton: A 2nd year student studying computer science with an interest for IT
 - Joss White: 3rd year COMP SCI student at UBCO originally from Calgary.
-- Aryan: 3rd year computer science student at UBCO who likes collecting colognes.
+- Aryan: 3rd year computer science student at UBCO.
 
-## Images
 
 
 ## References
 
-**Please remember to update this section**
 
 {Add your credits, acknowledgements, references, or citations **including a link to the data source** here}
 [Link to dataset](https://www.kaggle.com/datasets/kemical/kickstarter-projects?resource=download)

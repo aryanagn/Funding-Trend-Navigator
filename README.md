@@ -41,7 +41,7 @@ for these projects for the future such as apps, websites, etc.
 ## References
 
 
-{Add your credits, acknowledgements, references, or citations **including a link to the data source** here}
+
 [Link to dataset](https://www.kaggle.com/datasets/kemical/kickstarter-projects?resource=download)
 
 

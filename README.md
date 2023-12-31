@@ -1,9 +1,11 @@
 # Kickstarter Funding Data Analysis Navigation
 
+**Launched through opening terminal and navigating to directory of folder and then typing the command jupyter notebook where a local server will be instantiated**
+
 ## Tech stack used:
 Python, NumPy, Matplotlib, Seaborn, Scikit-learn, Pandas, Tableau
 
-## 300,000 Kickstarter projects. 
+### 300,000 Kickstarter projects: 
 With Kickstarter being such a popular crowd-funding website, it is interesting to see what 
 makes a certain project stand out and be successful. The dataset has many variables 
 that can be analysed in order get an insight into this question. Factors such as if 
@@ -18,7 +20,7 @@ or insights for future predictions by analysing this dataset through visuals, st
 ## Description
 
 
-## Dataset is based on the kickstarter fundraisers which have over 300,000 kickstarter projects:
+### Dataset is based on the kickstarter fundraisers which have over 300,000 kickstarter projects:
 Kickstarter is an independent company that provides support to the world of
 creative projects initiated by the public community. The overall 300,000 kickstarter data
 was provided/combined by MICKAËL MOUILLÉ initially collected from kickstarter projects.
@@ -29,7 +31,7 @@ such as poetry, drinks, food, games/crafts, sports and much more. They have list
 the various projects.The purpose of this data is to acknowledge different successfull/unsuccessful
 projects and which idea or project is the most common within the dataset, and if it has reached
 its milestone. The dataset was initially created as a standpoint for a twitter bot to tweet
-everytime a project had reached its desired milestone and for public interest to expand upon
+every time a project had reached its desired milestone and for public interest to expand upon
 The data was collected by a human who is a kickstarter crowdfunding enthusiast developing ideas
 for these projects for the future such as apps, websites, etc.
 
@@ -39,6 +41,3 @@ for these projects for the future such as apps, websites, etc.
 
 
 [Link to dataset](https://www.kaggle.com/datasets/kemical/kickstarter-projects?resource=download)
-
-
-

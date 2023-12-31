@@ -1,22 +1,25 @@
-# Kickstarter Fundraisers Data Analysis
+# Kickstarter Funding Data Analysis Navigation
 
+## Tech stack used:
+Python, NumPy, Matplotlib, Seaborn, Scikit-learn, Pandas, Tableau
 
-## Our group chose a dataset that contains information about ~300,000 Kickstarter projects. 
+## 300,000 Kickstarter projects. 
 With Kickstarter being such a popular crowd-funding website, it is interesting to see what 
-makes a certain project stand out and be successful. The dataset we chose has many variables 
-that we can analyse in order for us to get an insight into this question. Factors such as if 
+makes a certain project stand out and be successful. The dataset has many variables 
+that can be analysed in order get an insight into this question. Factors such as if 
 the project is for something local (a restaurant, for example) or if the project is something 
-that could be enjoyed by anyone are of interest. Do local projects get less funding because 
+that could be enjoyed by anyone of interest. Do local projects get less funding because 
 there are fewer backers who would benefit from a successful funding? Or did these local backers 
-contribute more because they saw more personal value in the project? There are many such 
-questions that can be asked from such a comprehensive dataset. We hope to answer any questions 
-or insights we may have by analysing this dataset.
+contribute more because they saw more personal value in the project? How many successful/unsuccessful 
+categories are there? Is the funding goal an issue causing the downfall of these projects? There are many such 
+questions that can be asked from such a comprehensive dataset. The goal is to answer questions 
+or insights for future predictions by analysing this dataset through visuals, statistical analysis, and machine learning techniques.
 
 ## Description
 
 
-## Our dataset is based on the kickstarter fundraisers which have over 300,000 kickstarter 
-projects. Kickstarter is an independent company that provides support to the world of
+## Dataset is based on the kickstarter fundraisers which have over 300,000 kickstarter projects:
+Kickstarter is an independent company that provides support to the world of
 creative projects initiated by the public community. The overall 300,000 kickstarter data
 was provided/combined by MICKAËL MOUILLÉ initially collected from kickstarter projects.
 There are around 300,000 rows and 16 columns of various data/projects which include categories 
@@ -29,13 +32,6 @@ its milestone. The dataset was initially created as a standpoint for a twitter b
 everytime a project had reached its desired milestone and for public interest to expand upon
 The data was collected by a human who is a kickstarter crowdfunding enthusiast developing ideas
 for these projects for the future such as apps, websites, etc.
-
-## Team Members
-
-- Connor Hamilton: A 2nd year student studying computer science with an interest for IT
-- Joss White: 3rd year COMP SCI student at UBCO originally from Calgary.
-- Aryan: 3rd year computer science student at UBCO.
-
 
 
 ## References
